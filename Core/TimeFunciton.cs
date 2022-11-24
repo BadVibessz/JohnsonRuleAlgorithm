@@ -7,7 +7,7 @@ public class TimeFunciton
     public TimeFunciton(int n, Func<int, float> func)
     {
         MapRule = new Dictionary<int, float>();
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i <= n; i++)
             MapRule.Add(i, func(i));
     }
 
@@ -28,9 +28,12 @@ public class TimeFunciton
         return new TimeFunciton(newMapRule);
     }
 
+    public int GetArgument(float x)
+        => MapRule.FirstOrDefault(pair => pair.Value == x).Key;
+
     public float Invoke(int i)
     {
-        if (i >= MapRule.Count) throw new Exception("Cannot invoke");
+        if (i > MapRule.Count) throw new Exception("Cannot invoke");
         return MapRule[i];
     }
     // todo: override invoke

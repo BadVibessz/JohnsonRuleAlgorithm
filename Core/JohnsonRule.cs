@@ -67,4 +67,31 @@ public class JohnsonRule
         schedule1.AddRange(schedule2);
         return schedule1;
     }
+
+    public float CalculateScheduleTime()
+    {
+        float result = 0f;
+
+        switch (WorkCenters.Count)
+        {
+            case 2:
+                foreach (var s in _schedule)
+                    result += WorkCenters[1].TimeFunction.Invoke(s);
+
+                foreach (var s in _schedule) // TODO: посчитать задержку второго станка
+                {
+                    result += WorkCenters[0].TimeFunction.Invoke(s);
+                }
+
+                break;
+
+
+            case 3:
+                //TODO
+                break;
+        }
+
+
+        return result;
+    }
 }

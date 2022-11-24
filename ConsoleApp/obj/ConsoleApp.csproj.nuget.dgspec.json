@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\Core\\Core.csproj"
+              "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\Core\\Core.csproj": {
+                "projectPath": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\Core\\Core.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\Core\\Core.csproj": {
+    "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\Core\\Core.csproj",
+        "projectPath": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\source\\repos\\JohnsonRuleAlgorithm\\Core\\obj\\",
+        "outputPath": "D:\\MINE\\ПРОГРАММИРОВАНИЕ\\C#\\Projects\\JohnsonRuleAlgorithm\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
